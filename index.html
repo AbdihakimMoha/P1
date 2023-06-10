@@ -195,7 +195,6 @@
 
                 <p class="card-text">
                   These Services focus on keeping you healthy. 
-                  Pharmacist and pharmacy Technicians can give you vaccines like flu shots to protect against disease.
                 </p>
 
               </div>
@@ -290,16 +289,8 @@
         - #CTA
       -->
 
-      <section class="section cta" aria-label="cta" style="background-image: url('./assets/images/cta-bg.jpg')">
-        <div class="container">
-
-          <p class="cta-subtitle">So What is Next?</p>
-
-          <h2 class="h2 section-title">Are You Ready? Let's get to Work!</h2>
-
-          <a href="#" class="btn btn-secondary">Get Started</a>
-
-        </div>
+      <section id="CTA" class="section cta" aria-label="cta" style="background-image: url('./assets/images/cta-bg.jpg')">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3989.7606885981604!2d32.56608891744385!3d0.30795870000000836!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x177dbd0b381a1a0d%3A0x883e76b421a29042!2sPave%20Way!5e0!3m2!1sen!2sug!4v1686393426373!5m2!1sen!2sug"  style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
       </section>
 
 
@@ -325,12 +316,12 @@
             aliqua.
           </p>
 
-          <form action="" class="contact-form">
+          <form action="form-handler.php" method="post" class="contact-form">
 
             <div class="input-wrapper">
               <input type="text" name="name" aria-label="name" placeholder="Your name*" required class="input-field">
 
-              <input type="email" name="email_address" aria-label="email" placeholder="Email address*" required
+              <input type="email" name="email" aria-label="email" placeholder="Email address*" required
                 class="input-field">
             </div>
 
@@ -392,7 +383,7 @@
 
             <li class="contact-item">
               <div class="contact-card">
-
+                
                 <div class="card-icon">
                   <ion-icon name="map-outline" aria-hidden="true"></ion-icon>
                 </div>
@@ -401,9 +392,9 @@
 
                   <h3 class="h3 card-title">Visit Here</h3>
 
-                  <address class="card-address">
-                    Mengo, Kisenyi,<br>
-                    Kampala, Uganda
+                  <a class="card-address"><a href="#CTA">
+                    Kisenyi, Kampala.</a>
+              
                   </address>
 
                 </div>
@@ -434,9 +425,9 @@
     
           <div class="social-icons">
             <h2>Social Media Accounts</h2>
-            <a href="#" class="icon-link"><i class="fab fa-facebook-f"></i></a>
-            <a href="#" class="icon-link"><i class="fab fa-instagram"></i></a>
-            <a href="#" class="icon-link"><i class="fab fa-whatsapp"></i></a>
+            <a href="#" class="icon-link"><i class="fas fa-facebook-f"></i></a>
+            <a href="#" class="icon-link"><i class="fas fa-instagram"></i></a>
+            <a href="https://wa.me/0703304110" class="icon-link"><i class="fas fa-whatsapp"></i></a>
             <!-- Add more social media icons as needed -->
           </div>
     
